@@ -1,0 +1,19 @@
+== Ratpack
+image::logo-ratpack.jpeg[]
+
+=== What is Ratpack?
+Ratpack is a set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+
+Ratpack is for nontrivial, high performance, low resource usage, HTTP applications.
+
+=== Core is made up of only
+* Java8
+* Guava
+* Guice
+* Reactive Streams
+
+=== What does it buy me
+
+=== How can I use it today?
+
+===  Examples

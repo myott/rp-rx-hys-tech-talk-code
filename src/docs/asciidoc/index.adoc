@@ -1,0 +1,25 @@
+== Ratpack, RxJava, Hystrix, etc.
+image::logo-hystrix.png[hystrix,role="top"]
+image::logo-rx.png[rx,role="right"]
+image::logo-ratpack.jpeg[rp,role="right"]
+
+include::intro.adoc[]
+
+include::reactive.adoc[]
+
+include::hystrix.adoc[]
+
+include::ratpack.adoc[]
+
+== Resources
+* Reactive Design and RxJava:
+** http://www.reactivemanifesto.org/[Reactive Manifesto]
+** https://github.com/ReactiveX/RxJava[RxJava Github]
+
+* Hystrix
+** https://github.com/Netflix/Hystrix/[Hystrix Github]
+** http://techblog.netflix.com/search/label/Hystrix[Netflix Blog Posts]
+** https://github.com/Netflix/Turbine/wiki[Turbine Github]
+* Ratpack
+
+== Questions?

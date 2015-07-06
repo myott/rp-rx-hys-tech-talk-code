@@ -1,0 +1,66 @@
+== Hystrix
+image::logo-hystrix.png[]
+
+=== What is Hystrix and what does it buy me?
+
+=== *Resiliency!*
+
+_because_
+
+“In a distributed environment, inevitably some of the many service dependencies will fail."
+
+=== Out of the box
+- [X] Stopping cascading failure
+- [X] Provides fallback options
+- [X] Request collapsing
+- [X] Response caching
+
+Above all else, fail quickly, fail 'safely'!
+
+=== How can I use it today?
+Starting wrapping all calls that go out over the network with HystrixCommand objects.
+
+=== Examples
+
+[source,groovy]
+----
+  private static final HystrixCommandGroupKey hystrixCommandGroupKey =
+      HystrixCommandGroupKey.Factory.asKey("sql-profiledb")
+
+  rx.Observable<Long> insert(Profile profile) {
+    return new HystrixObservableCommand<Long>(
+        HystrixObservableCommand.Setter
+            .withGroupKey(hystrixCommandGroupKey)
+            .andCommandKey(HystrixCommandKey.Factory.asKey("insert"))) {
+
+      @Override
+      protected rx.Observable<Long> construct() {
+        observe(
+            execControl.blocking {
+              Map map = [firstName: profile.firstName, lastName: profile.lastName, email: profile.email]
+              sql.executeInsert(map, 'insert into profile (first_name, last_name, email) values (:firstName, :lastName, :email)')
+            }
+            .map { List<List<Object>> l ->
+              l[0][0]
+            }
+            .map { it.toString() }
+            .map(Long.&parseLong)
+        )
+      }
+
+      @Override
+      protected rx.Observable<Long> resumeWithFallback() {
+        observe(
+            execControl.blocking {
+              stormService.write(profile)
+              return 0;
+            }
+        )
+      }
+    }.toObservable()
+----
+
+=== Cont...
+Turbine:
+
+image::turbinedash.jpg[]
