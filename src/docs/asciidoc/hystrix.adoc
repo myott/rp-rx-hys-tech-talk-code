@@ -11,6 +11,7 @@ _because_
 
 === Out of the box
 - [X] Stopping cascading failure
+- [X] Circuit breaking
 - [X] Provides fallback options
 - [X] Request collapsing
 - [X] Response caching

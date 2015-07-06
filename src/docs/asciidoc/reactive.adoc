@@ -20,6 +20,7 @@ image::reactive-traits.svg[]
 
 * Lightweight (1 .jar)
 * A library for composing asynchronous and event-based programs by using observable sequences
+* Compose high order function of data flow with the ability to error handle
 
 === Combine
 [source,groovy]
