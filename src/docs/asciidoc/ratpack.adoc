@@ -2,9 +2,16 @@
 image::logo-ratpack.jpeg[]
 
 === What is Ratpack?
-Ratpack is a set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+Fully reactive, async, and non-blocking.
 
-Ratpack is for nontrivial, high performance, low resource usage, HTTP applications.
+No impedance mismatch between service and framework.
+
+=== Build HTTP applications that are
+- [X] Fast, efficient, evolvable
+- [X] Well tested
+- [X] High performance
+- [X] Low resource usage
+- [X] Non-opinionated
 
 === Core is made up of only
 * Java8
@@ -12,8 +19,14 @@ Ratpack is for nontrivial, high performance, low resource usage, HTTP applicatio
 * Guice
 * Reactive Streams
 
-=== What does it buy me
-
-=== How can I use it today?
+=== Out of the box integration with
+- [X] Hikari
+- [X] RxJava
+- [X] Hystrix
+- [X] Jackson
+- [X] Coda Hale
+- [X] Guice
+- [X] Geb
+...
 
 ===  Examples
