@@ -5,5 +5,5 @@ on icon:github[] https://github.com/asciidoctor/asciidoctor[Github]
 
 &
 
-https://github.com/hakimel/reveal.js/[reveal.js]
+http://lab.hakim.se/reveal-js/#/[reveal.js]
 on icon:github[] https://github.com/hakimel/reveal.js/[Github]
