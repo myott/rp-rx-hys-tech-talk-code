@@ -54,7 +54,7 @@ Starting wrapping all calls that go out over the network with HystrixCommand obj
         observe(
             execControl.blocking {
               stormService.write(profile)
-              return 0;
+              return 0
             }
         )
       }

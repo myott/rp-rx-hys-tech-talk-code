@@ -2,7 +2,7 @@
 image::logo-ratpack.jpeg[]
 
 === What is Ratpack?
-Fully reactive, async, and non-blocking.
+Fully reactive, async, and non-blocking web framework
 
 === So you get
 No impedance mismatch between service and framework.
