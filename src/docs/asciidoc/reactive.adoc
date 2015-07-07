@@ -7,12 +7,35 @@ flexible, loosely-coupled and scalable
 
 image::reactive-traits.svg[]
 
+=== Responsive
+- [X] Usability & Utility
+- [X] Detect problems quickly
+- [X] Consistent upper bounds
+
+This consistent behaviour in turn simplifies error handling, builds end user confidence, and encourages further interaction.
+
+=== Resilient
+- [X] Stay responsive in the face of failure
+- [X] Failures are contained within each component
+
+=== Elastic
+- [X] Stay responsive in varying workloads
+- [X] No contention points
+- [X] No central bottlenecks
+
+=== Message Driven
+- [X] Asynchronous message-passing
+- [X] Non-blocking communication
+- [X] Apply back-pressure
+- [X] Failures (in contrast to errors) as messages
+- [X] Boundary between components -- loose coupling, isolation, location transparency
+
 === So we get systems that are ...
 
-- [X] amenable to change
-- [X] meet failure with elegance, not disaster
-- [X] provide interactive feedback
-- [X] less opinionated
+- [X] Amenable to change
+- [X] Meet failure with elegance, not disaster
+- [X] Provide interactive feedback
+- [X] Less opinionated
 
 === So how do we achieve this?
 

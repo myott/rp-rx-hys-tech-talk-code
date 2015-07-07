@@ -19,7 +19,11 @@ include::ratpack.adoc[]
 * Hystrix
 ** https://github.com/Netflix/Hystrix/[Hystrix Github]
 ** http://techblog.netflix.com/search/label/Hystrix[Netflix Blog Posts]
-** https://github.com/Netflix/Turbine/wiki[Turbine Github]
+
 * Ratpack
+** http://ratpack.io/[Ratpack.io]
+** https://github.com/ratpack/[Ratpack Github]
+
+include::builtby.adoc[]
 
 == Questions?
