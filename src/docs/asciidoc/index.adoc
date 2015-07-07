@@ -12,17 +12,13 @@ include::hystrix.adoc[]
 include::ratpack.adoc[]
 
 == Resources
-* Reactive Design and RxJava:
-** http://www.reactivemanifesto.org/[Reactive Manifesto]
-** https://github.com/ReactiveX/RxJava[RxJava Github]
-
-* Hystrix
-** https://github.com/Netflix/Hystrix/[Hystrix Github]
-** http://techblog.netflix.com/search/label/Hystrix[Netflix Blog Posts]
-
-* Ratpack
-** http://ratpack.io/[Ratpack.io]
-** https://github.com/ratpack/[Ratpack Github]
+- http://www.reactivemanifesto.org/[Reactive Manifesto]
+- https://github.com/ReactiveX/RxJava[RxJava Github]
+- https://github.com/Netflix/Hystrix/[Hystrix Github]
+- http://techblog.netflix.com/search/label/Hystrix[Netflix Blog Posts]
+- https://github.com/Netflix/Turbine/wiki[Turbine Github]
+- http://ratpack.io/[Ratpack.io]
+- https://github.com/ratpack/[Ratpack Github]
 
 include::builtby.adoc[]
 

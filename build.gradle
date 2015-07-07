@@ -92,7 +92,7 @@ asciidoctor {
     'revealjs_transition': 'linear',
     'revealjs_history': 'true',
     'revealjs_slideNumber': 'true',
-    'revealjs_theme': 'black',
+    'revealjs_theme': 'moon',
     'title-slide-background-image': '',
     'slide-background-image': '',
     'slide-background-position': 'bottom left',

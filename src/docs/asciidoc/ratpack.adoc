@@ -4,6 +4,7 @@ image::logo-ratpack.jpeg[]
 === What is Ratpack?
 Fully reactive, async, and non-blocking.
 
+=== So you get
 No impedance mismatch between service and framework.
 
 === Build HTTP applications that are
