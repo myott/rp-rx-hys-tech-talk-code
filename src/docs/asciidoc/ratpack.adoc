@@ -21,7 +21,7 @@ No impedance mismatch between service and framework.
 * Reactive Streams
 
 === Out of the box integration with
-- [X] Hikari
+- [X] New Relic
 - [X] RxJava
 - [X] Hystrix
 - [X] Jackson
